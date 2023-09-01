@@ -1,5 +1,11 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+import { Badge } from "@/components/ui/badge"
 
 export default function Home() {
   return (
@@ -10,11 +16,28 @@ export default function Home() {
             <h2 className='font-mono tracking-tighter'>projects</h2>
           </div>
           <ul className='space-y-4 py-4'>
-            <li> 
+            <li>
+
               <a className='flex flex-col space-y-1.5 !no-underline' href="https://tracklyze.com">
                 <span className='font-medium underline underline-offset-4'>tracklyze</span>
                 <span className='text-muted-foreground'> an intuitive web analytics platform with LLM integration. </span>
               </a>
+
+              {/* <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="item-1">
+                  <AccordionTrigger> Learn More </AccordionTrigger>
+                  <AccordionContent>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam ac tincidunt luctus, nisl eros aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed euismod, diam ac tincidunt luctus, nisl eros aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed euismod, diam ac tincidunt luctus, nisl eros aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed euismod, diam ac tincidunt luctus, nisl eros aliquam nunc, vitae aliquam nunc nisl vitae nunc.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion> */}
+
+              <div className="flex flex-row justify-start space-x-2 py-2"> 
+                <Badge variant="secondary">Next.js</Badge>
+                <Badge variant="secondary">Planetscale</Badge>
+                <Badge variant="secondary">OpenAI</Badge>
+              </div>
+
             </li>
             <li> 
               <a className='flex flex-col space-y-1.5 !no-underline' href="https://goinfinitum.com/motor-selection">
