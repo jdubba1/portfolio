@@ -22,6 +22,13 @@ export default function Home() {
                 <span className='text-muted-foreground'> a product recommendation tool for an electric motor company. </span>
               </a>
             </li>
+            <li> 
+              <a className='flex flex-col space-y-1.5 !no-underline' href="https://infinitum-docs.vercel.app/mst-api">
+                <span className='font-medium underline underline-offset-4'>Infinitum API</span>
+                <span className='text-muted-foreground'> a next.js API powering multiple product recommendation apps. </span>
+              </a>
+            </li>
+
               
           </ul>
 
