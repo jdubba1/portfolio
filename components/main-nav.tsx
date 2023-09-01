@@ -5,7 +5,7 @@ import { GithubIcon } from './github-icon'
 export function MainNav() {
   return (
     <nav>
-      <header className='container max-w-lg'>
+      <header className='container max-w-2xl'>
         <div className='flex items-center justify-between py-4'>
           {/* Name + Title */}
           <Link className='flex items-center space-x-2' href="/">
