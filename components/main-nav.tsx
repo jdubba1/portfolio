@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { ModeToggle } from './mode-toggle'
-import { GithubIcon } from './github-icon'
+import { ModeToggle } from './nav-components/mode-toggle'
+import { GithubIcon } from './nav-components/github-icon'
 
 export function MainNav() {
   return (
