@@ -1,5 +1,9 @@
+"use client"
+
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+
+import * as z from "zod"
 
 export default function Home() {
   return (
@@ -11,7 +15,7 @@ export default function Home() {
           <TabsList>
             <TabsTrigger value="projects">projects</TabsTrigger>
             <TabsTrigger value="about">about</TabsTrigger>
-            <TabsTrigger value="contact">contact</TabsTrigger>
+            {/* <TabsTrigger value="contact">contact</TabsTrigger> */}
           </TabsList>
           <TabsContent value="projects">
             <ul className='space-y-4 py-4'>
@@ -112,9 +116,9 @@ export default function Home() {
               </div>
             </div>
           </TabsContent>
-          <TabsContent value="contact">
-            hello hello! Im james, a s things that make people&aposs lives easier.
-          </TabsContent>
+          {/* <TabsContent value="contact">
+            
+          </TabsContent> */}
         </Tabs>
 
 
