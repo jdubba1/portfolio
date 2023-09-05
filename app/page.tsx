@@ -29,7 +29,6 @@ export default function Home() {
                   <a href="https://www.planetscale.com/" target="_blank" rel="noopener noreferrer"><Badge className="m-1" variant="secondary">Planetscale</Badge></a>
                   <a href="https://www.prisma.io/" target="_blank" rel="noopener noreferrer"><Badge className="m-1" variant="secondary">Prisma</Badge></a>
                   <a href="https://www.openai.com/" target="_blank" rel="noopener noreferrer"><Badge className="m-1" variant="secondary">OpenAI</Badge></a>
-
                 </div>
               </li>
               <li> 

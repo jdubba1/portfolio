@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bard Owl',
+  title: 'James Wissemann',
   description: 'James\'s personal website',
 }
 
@@ -18,10 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel='icon' href='/favicon.ico' />
+      </head>
       <body className={`inter.className flex min-h-screen flex-col py-8`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <MainNav></MainNav>
           {children}
+          
         </ThemeProvider>
       </body>
     </html>
