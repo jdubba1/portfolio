@@ -24,7 +24,7 @@ const Contact: FC = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <div className='space-y-4 py-4'>
+      <div className='space-y-4 py-8'>
         <div className="grid w-full sm:w-2/3 items-center gap-1.5">
           <Label htmlFor="name">Name</Label>
           <Input type="text" id="name" placeholder="John Doe" {...register('name', { required: true })} />
@@ -37,12 +37,11 @@ const Contact: FC = () => {
           <Label htmlFor="name">Message</Label>
           <Textarea id="message" placeholder="Type your message" {...register('message', { required: true })}/>
         </div>
-      </div>
-      
-      <div>
-        <Button>
-          Submit
-        </Button>
+        <div>
+          <Button>
+            Submit
+          </Button>
+        </div>
       </div>
     </form>
   );
