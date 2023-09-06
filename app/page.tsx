@@ -4,7 +4,6 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import  Contact from "@/components/contact"
 
-import * as z from "zod"
 
 export default function Home() {
   return (

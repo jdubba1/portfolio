@@ -1,5 +1,6 @@
 
 import { FormData } from '@/components/contact';
+import { toast, useToast } from '@/components/ui/use-toast';
 
 export function sendEmail(data: FormData) {
   const apiEndpoint = '/api/email';
@@ -10,9 +11,14 @@ export function sendEmail(data: FormData) {
   })
     .then((res) => res.json())
     .then((response) => {
-      alert(response.message);
+      toast({
+        title: response.message,
+        description: 'Your message has been sent!',
+      });
     })
     .catch((err) => {
-      alert(err);
+      toast({
+        description: 'Error Sending Email',
+      });
     });
   }

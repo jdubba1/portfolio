@@ -4,6 +4,8 @@ import { Inter } from 'next/font/google'
 import { MainNav } from '@/components/main-nav'
 import { ThemeProvider } from '@/components/theme-provider'
 
+import { Toaster } from "@/components/ui/toaster"
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -25,8 +27,8 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <MainNav></MainNav>
           {children}
-          
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   )
