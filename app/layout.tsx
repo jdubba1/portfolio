@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       
       <head>
-      <script defer src = "https://tracklyze-app-router.vercel.app/insightCore.js" data-domain="james-wissemann.com"></script>
+      <script defer src = "https://tracklyze.com/insightCore.js" data-domain="james-wissemann.com"></script>
         <link rel='icon' href='/favicon.ico' />
       </head>
       <body className={`inter.className flex min-h-screen flex-col py-8`}>
