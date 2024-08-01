@@ -450,8 +450,8 @@ export default function Home() {
         </article>
       </div>
       <div className="pb-[5px] p-8 sm:hidden">
-                <ModeToggle></ModeToggle>
-              </div>
+        <ModeToggle></ModeToggle>
+      </div>
     </main>
   );
 }
