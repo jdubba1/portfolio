@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       
       <head>
-      <script defer src = "https://dev-tracklyze-app-router.vercel.app/ICD7.js" data-domain="james-wissemann.com"></script>
+      <script defer src="http://www.tracklyze.com/tracking-dev.js" data-site-id="b4baeaaa-43f9-4f3e-9f16-29d28a9bd31c"></script>
         <link rel='icon' href='/favicon.ico' />
       </head>
       <body className={`inter.className flex min-h-screen flex-col py-8`}>
