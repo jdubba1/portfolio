@@ -21,11 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          defer
-          src="https://www.tracklyze.com/tracking-dev.js"
-          data-site-id="b4baeaaa-43f9-4f3e-9f16-29d28a9bd31c"
-        ></script>
+      <script async src="https://www.tracklyze.com/insight-core.js" data-site-id="6bcfe402-fc7b-497e-a4de-9d9b63deacea"></script>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`inter.className flex min-h-screen flex-col py-8`}>

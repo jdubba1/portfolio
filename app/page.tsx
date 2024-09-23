@@ -29,7 +29,7 @@ export default function Home() {
                       Intuitive web analytics platform with LLM integration.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start items-center space-x-2 py-2">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
@@ -42,7 +42,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge  variant="secondary">
                         Neon
                       </Badge>
                     </a>
@@ -51,7 +51,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge  variant="secondary">
                         Prisma
                       </Badge>
                     </a>
@@ -60,8 +60,17 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge  variant="secondary">
                         OpenAI
+                      </Badge>
+                    </a>
+                    <a
+                      href="https://clerk.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Badge  variant="secondary">
+                        Clerk
                       </Badge>
                     </a>
                   </div>
@@ -79,7 +88,7 @@ export default function Home() {
                       Digital freelance media agency.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start items-center space-x-2 py-2">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
@@ -92,7 +101,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge  variant="secondary">
                         Neon
                       </Badge>
                     </a>
@@ -101,7 +110,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge  variant="secondary">
                         Prisma
                       </Badge>
                     </a>
@@ -110,8 +119,17 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge  variant="secondary">
                         OpenAI
+                      </Badge>
+                    </a>
+                    <a
+                      href="https://clerk.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Badge  variant="secondary">
+                        Clerk
                       </Badge>
                     </a>
                   </div>
@@ -130,7 +148,7 @@ export default function Home() {
                       Marketing site for an accounting and finance startup.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start items-center space-x-2 py-2">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
@@ -143,7 +161,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge variant="secondary">
                         Tailwind
                       </Badge>
                     </a>
@@ -153,7 +171,7 @@ export default function Home() {
                 <li>
                   <a
                     className="flex flex-col space-y-1.5 !no-underline"
-                    href="https://infinitum-docs.vercel.app/mst-api"
+                    href="https://mst.goinfinitum.com"
                   >
                     <span className="font-medium underline underline-offset-4">
                       Motor Selection Tool
@@ -163,7 +181,7 @@ export default function Home() {
                       Product recommendation tool for an electric motor company.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start space-x-2 py-2 items-center">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
@@ -172,12 +190,12 @@ export default function Home() {
                       <Badge variant="secondary">Next.js</Badge>
                     </a>
                     <a
-                      href="https://www.mongodb.com/"
+                      href="https://clerk.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
-                        MongoDB
+                      <Badge variant="secondary">
+                        Clerk
                       </Badge>
                     </a>
                   </div>
@@ -195,15 +213,16 @@ export default function Home() {
                       Simple documentation site made with nextra.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start space-x-2 py-2 items-center">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="p-0"
                     >
                       <Badge variant="secondary">Next.js</Badge>
                     </a>
-                    <Badge variant="outline">Markdown</Badge>
+                    <Badge variant="outline" className="pb-1">Markdown</Badge>
                   </div>
                 </li>
                 <li>
@@ -219,7 +238,7 @@ export default function Home() {
                       Minimal portfolio using next.js and shadcn components.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start space-x-2 py-2 items-center">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
@@ -242,7 +261,7 @@ export default function Home() {
                       Journalism protfolio site.{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start space-x-2 py-2 items-center">
                     <a
                       href="https://nextjs.org/"
                       target="_blank"
@@ -255,7 +274,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge variant="secondary">
                         Tailwind
                       </Badge>
                     </a>
@@ -274,13 +293,13 @@ export default function Home() {
                       Pet ecommerce site{" "}
                     </span>
                   </a>
-                  <div className="flex flex-row justify-start space-x-2 py-2">
+                  <div className="flex flex-row justify-start items-center space-x-2 py-2">
                     <a
                       href="https://shopify.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Badge className="m-1" variant="secondary">
+                      <Badge variant="secondary">
                         Shopify
                       </Badge>
                     </a>
